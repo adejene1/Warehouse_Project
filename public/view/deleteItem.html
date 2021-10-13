@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+</head>
+<body>
+    <h1>Delete Items</h1>
+    <form method="post" action="/delItems">
+        <div>
+            Warehouse ID: <input type="number" name="idW" required/>
+            Item to remove: <input type="text" name="itmRm" required/>
+            Amount: <input type="number" name="amtRm" required/>
+        </div>
+        <div>
+            <input type="submit" value="Submit"/>
+        </div>
+    </form>
+    
+</body>
+</html>
